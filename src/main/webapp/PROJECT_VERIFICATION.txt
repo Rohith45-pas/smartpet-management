@@ -1,0 +1,9 @@
+SmartPetManagement verification checklist
+
+- All JSP files use UTF-8 source encoding and explicitly set response character encoding to UTF-8.
+- All JSP files link to smartpet.css.
+- Common CSS uses local pet-care SVG artwork for page visuals.
+- MySQL Connector/J is included in WEB-INF/lib and Eclipse classpath is project-relative.
+- Existing Java model/DAO/controller source files are retained.
+
+Important: Runtime database connection still requires the local MySQL smart_pet_db database and the DB credentials configured in DBConnection.java.
